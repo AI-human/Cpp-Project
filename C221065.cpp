@@ -173,8 +173,9 @@ int main()
                 getline(cin,TN);
                 system("cls");
                 for(int i=0;i<20;i++){
-                    if(TN==S[i].str_t__name());
-                    S[i].show_S();
+                    if(TN==S[i].str_t__name()){
+                        S[i].show_S();  
+                    }
                 }
             }
             else {
